@@ -1,0 +1,66 @@
+Fission Model Calculator 2 -Alpha ver 1.5
+
+Implemented and Developed by Murtuza Attarwala
+
+-------------------------: MANUAL :-----------------------------
+
+FMC2 is made for experimantal purpose and is not advised to work
+on commercial or real basis but it can be used for it.
+
+FMC2 is still in alpha phase and is lacking many features, anyone
+is free to develop it further.
+
+LICENSE:- GNU GPL for Open Source Softwares
+
+WARNING:- The software with any further development by any third
+		  Person or Group it should be made FREE & OPEN SOURCE
+=================================================================
+
+1. Description:
+	FMC2 is made for finding a value of variable from an equation
+	like:-
+		x+2 = 5
+		OR
+		x/4 = 6
+		...
+	it can handle basic equations which does not have parentheses and 
+	exponents
+	
+2. Using It:
+	Just type your equation and press enter ex. entering 2+x=5 will 
+	result in 3
+	NOTE:- it calculates equation in either reverce order, it does 
+		   not have any priorities for operator so enter your equation 
+		   according to that. The answer will be equal if you solve 
+		   it left to right.
+	
+	i)Whitespaces in equation:
+		you can use spaces in your equation as much as you want
+		even this is a current statement
+		1 2 3 + x = 1 5 0
+		it will be converted to 123+x=150 in FMC2 automatically
+		
+	ii)Structure of equation: 
+		FMC2 calculates the result in reverse order. So write the
+		equation in left to right order
+		NOTE:- FOR FMC2 VER LOWER THAN 1.2 THEY CAN CHANGE THE ORDER
+			   OF CALCULATION BY CHANGING THE 'reverceCalc' TO 0.
+			   CHANGING IT CAN RESULT IN WRONG CALCULATIONS
+		
+		Variable:
+			The variable can be any alphabet in upper or lower case
+			from a to z or A to Z.
+			
+		NO VARIABLE DIVISOR: {Feature Implemented in FMC2 ver 1.1 and above 
+							  but buggy}
+			 NOTE:- FMC2 VER ABOVE 1.1 HAVE THIS FEATURE BUT IN MANY 
+					EQUATION IT CAN GIVE WRONG ANSWER.
+			As FMC2 is in alpha development state the implimentation
+			of certain features is remaining. From these remaining 
+			features the ability to find variable that are divisor 
+			is still to be included.
+			Therefore equation like these will cause an error:
+				4/x = 2
+				23+45/z*12 = 1000
+			Else the variable can anywhere in the equation
+		
